@@ -1,0 +1,26 @@
+{
+  "run_type": "stats_extraction",
+  "parameters": {
+    "data_path": "/nasa/datasets/libinvent/small_chembl_1k.csv",
+    "output_path": "/path/to/output/folder",
+    "properties": [
+      "num_rings"
+    ],
+    "token_distribution": false,
+    "columns": [
+      "original"
+    ],
+    "mode": "orig_data",
+    "plotting": false,
+    "standardisation_config": {
+      "neutralise_charges": {
+        "reactions": null
+      }
+    },
+    "save_standardised": true,
+    "filter": {},
+    "save_cut_precomputed": false,
+    "token_atom_ratio": false,
+    "count_decorations": false
+  }
+}
