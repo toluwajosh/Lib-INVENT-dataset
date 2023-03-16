@@ -3,11 +3,7 @@
 This repository holds the code used for preprocessing and data analysis in the Lib-INVENT project
 ([Lib-INVENT: Reaction Based Generative Scaffold Decoration for in silico Library Design](https://chemrxiv.org/articles/preprint/Lib-INVENT_Reaction_Based_Generative_Scaffold_Decoration_for_in_silico_Library_Design/14473980 "ChemRxiv preprint")).
 
-This repository holds the code used for preprocessing and data analysis in the Lib-INVENT project
-([Lib-INVENT: Reaction Based Generative Scaffold Decoration for in silico Library Design](https://chemrxiv.org/articles/preprint/Lib-INVENT_Reaction_Based_Generative_Scaffold_Decoration_for_in_silico_Library_Design/14473980 "ChemRxiv preprint")).
-
-The code is organised
-in two main folders:
+The code is organised in two main folders:
 
 - data_preparation contains scripts necessary for the preparation of the data before the model is trained. The functionality
   includes reaction based slicing, dataset profiling and filtering based on user defined criteria.
