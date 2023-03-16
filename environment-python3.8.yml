@@ -1,4 +1,4 @@
-name: lib_invent_py3.8.10
+name: lib_invent_data
 channels:
   - conda-forge
   - defaults

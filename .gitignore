@@ -138,3 +138,5 @@ trained_models/
 *.pem
 .aws-sam/
 archive/
+configs/
+*__local.*
