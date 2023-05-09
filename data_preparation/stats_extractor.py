@@ -111,9 +111,7 @@ class StatsExtractor:
         self._standardise_smiles_udf = psf.udf(
             lambda x: RDKitStandardizer(
                 standardisation_config, None
-            ).apply_filter(x)
-            if Chem.MolFromSmiles(x) is not None
-            else "",
+            ).apply_filter(x),
             pst.StringType(),
         )
         pattern = self._stats.REGEX_TOKENS
