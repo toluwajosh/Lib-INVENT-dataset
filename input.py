@@ -9,9 +9,8 @@ from dto import GeneralConfiguration
 from manager import Manager
 
 if __name__ == "__main__":
-
     with open(sys.argv[1]) as f:
-        json_input = f.read().replace('\r', '').replace('\n', '')
+        json_input = f.read().replace("\r", "").replace("\n", "")
 
     configuration = {}
     try:
@@ -19,6 +18,8 @@ if __name__ == "__main__":
     except (ValueError, KeyError, TypeError):
         print("JSON format error")
     else:
-        general_config = from_dict(data_class=GeneralConfiguration, data=configuration)
+        general_config = from_dict(
+            data_class=GeneralConfiguration, data=configuration
+        )
         manager = Manager(general_config)
         manager.run()
